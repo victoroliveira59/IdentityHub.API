@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ysSrS3n0/ZSs1J2F8MkNjQCAaILLGkr7I3h1w5wmkus=",
+  "Source": "IdentityHub.API",
+  "BasePath": "_content/IdentityHub.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

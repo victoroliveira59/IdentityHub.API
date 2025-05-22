@@ -1,0 +1,14 @@
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\bin\Debug\net8.0\IdentityHub.Domain.deps.json
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\bin\Debug\net8.0\IdentityHub.Domain.runtimeconfig.json
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\bin\Debug\net8.0\IdentityHub.Domain.dll
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\bin\Debug\net8.0\IdentityHub.Domain.pdb
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.csproj.AssemblyReference.cache
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.AssemblyInfoInputs.cache
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.AssemblyInfo.cs
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.dll
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\refint\IdentityHub.Domain.dll
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.pdb
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\IdentityHub.Domain.genruntimeconfig.cache
+C:\Projetos\IdentityHub\src\IdentityHub.Domain\obj\Debug\net8.0\ref\IdentityHub.Domain.dll
