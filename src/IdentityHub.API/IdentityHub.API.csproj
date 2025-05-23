@@ -20,4 +20,8 @@
     <ProjectReference Include="..\IdentityHub.Infrastructure\IdentityHub.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
