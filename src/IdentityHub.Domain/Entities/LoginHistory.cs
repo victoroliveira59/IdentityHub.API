@@ -1,6 +1,6 @@
 ﻿namespace IdentityHub.Domain.Entities;
 
-class LoginHistory
+public class LoginHistory
 {
     public Guid IdentificadorHistorico { get; set; }
     public Guid UserId { get; set; }

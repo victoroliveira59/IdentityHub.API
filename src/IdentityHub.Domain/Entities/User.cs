@@ -1,6 +1,6 @@
 ﻿namespace IdentityHub.Domain.Entities;
 
-class User
+public class User
 {
     public Guid IdentificadorUsuario { get; set; }
     public string Nome { get; set; }
