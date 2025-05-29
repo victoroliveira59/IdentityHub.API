@@ -10,7 +10,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
     {
         entity.ToTable("Usuario");
 
-        entity.HasKey(e => e.IdentificadorUsuario);
+        entity.HasKey(e => e.IdentificadorUser);
 
         entity.Property(e => e.Email)
             .IsRequired()
@@ -52,12 +52,12 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
 
         entity.HasMany(e => e.UserRoles)
             .WithOne(e => e.User)
-            .HasForeignKey(e => e.UserId)
+            .HasForeignKey(e => e.IdentificadorUserRole)
             .OnDelete(DeleteBehavior.Cascade);
 
         entity.HasMany(e => e.LoginHistories)
             .WithOne(e => e.User)
-            .HasForeignKey(e => e.UserId)
+            .HasForeignKey(e => e.User)
             .OnDelete(DeleteBehavior.Cascade);
 
         entity.ToTable("Usuario");
