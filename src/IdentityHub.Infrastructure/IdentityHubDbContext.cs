@@ -3,9 +3,9 @@ using IdentityHub.Domain.Entities;
 
 namespace IdentityHub.Infrastructure;
 
-class IdentityHubContext : DbContext
+public class IdentityHubDbContext : DbContext
 {
-     public IdentityHubContext(DbContextOptions<IdentityHubContext> options)
+     public IdentityHubDbContext(DbContextOptions<IdentityHubDbContext> options)
         : base(options)
     {
     }
