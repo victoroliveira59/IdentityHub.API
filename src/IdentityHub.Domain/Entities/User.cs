@@ -1,8 +1,11 @@
-﻿namespace IdentityHub.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
 
-class User
+namespace IdentityHub.Domain.Entities;
+
+public class User
 {
-    public Guid IdentificadorUsuario { get; set; }
+    [Key]
+    public Guid IdentificadorUser { get; set; }
     public string Nome { get; set; }
     public string Email { get; set; }
     public string PasswordHash { get; set; }
