@@ -35,7 +35,7 @@ public class LoginHistoryConfiguration : IEntityTypeConfiguration<LoginHistory>
 
         entity.HasOne(e => e.User)
             .WithMany(e => e.LoginHistories)
-            .HasForeignKey(e => e.User)
+            .HasForeignKey(e => e.UserId)
             .OnDelete(DeleteBehavior.Cascade)
             .HasConstraintName("FK_LoginHistory_User");
 
