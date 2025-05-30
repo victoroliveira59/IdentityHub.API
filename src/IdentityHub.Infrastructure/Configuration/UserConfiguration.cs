@@ -57,7 +57,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
 
         entity.HasMany(e => e.LoginHistories)
             .WithOne(e => e.User)
-            .HasForeignKey(e => e.User)
+            .HasForeignKey(e => e.UserId)
             .OnDelete(DeleteBehavior.Cascade);
 
         entity.ToTable("Usuario");
